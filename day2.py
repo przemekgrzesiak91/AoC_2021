@@ -3,7 +3,6 @@ with open('data/day2.txt') as f:
     data = f.read().split('\n')
 
 def calc_pos(data):
-
     h_pos = 0
     depth = 0
 
@@ -14,8 +13,6 @@ def calc_pos(data):
         elif direction == 'up': depth -= int(value)
 
     return h_pos*depth
-
-print(calc_pos(data))
 
 #2.2
 def calc_pos2(data):
@@ -34,4 +31,7 @@ def calc_pos2(data):
 
     return h_pos*depth
 
+# 2.1
+print(calc_pos(data))
+# 2.2
 print(calc_pos2(data))

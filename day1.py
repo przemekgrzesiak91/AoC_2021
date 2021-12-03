@@ -15,13 +15,10 @@ def count_increased(data):
     return n_incresead
 
 # 1.1
-
 print(count_increased(data))
 
 # 1.2
-#data = [1,1,1,2,2,2,3,3,3]
 new_data = []
-
 for i in range(2,len(data)):
     new_data.append((data[i-2]+data[i-1]+data[i]))
 
