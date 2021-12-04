@@ -1,3 +1,5 @@
+# MAKE IT BETTER!!!!!!!!!!!!
+
 with open('data/day3.txt') as f:
     data = f.read().split('\n')
 
